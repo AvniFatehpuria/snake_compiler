@@ -1,0 +1,26 @@
+# OCaml things
+*.cmi
+*.cmo
+*.native
+*.byte
+*.d.native
+*.p.byte
+_log
+_build
+
+# Compiler things
+*.o
+*.s
+*.run
+logs
+output
+
+# OUnit things
+oUnit*.cache
+oUnit*.log
+
+# vim things
+.*.sw*
+
+# emacs things
+*~

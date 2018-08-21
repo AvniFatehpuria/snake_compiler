@@ -1,0 +1,3 @@
+let x = 4 in
+let f = (fun y -> x + y) in
+f 2

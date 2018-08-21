@@ -1,0 +1,12 @@
+def f x y z =
+let a = y+3 in
+let b = x a in
+z + b
+end
+
+def g x =
+x*5
+end
+
+let h = f g in
+h 2 3

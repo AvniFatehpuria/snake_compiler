@@ -1,0 +1,5 @@
+let x = 2 in
+(fun y ->
+let z =
+(fun j -> j * 5) x in
+z + y) 4

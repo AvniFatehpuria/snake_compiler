@@ -1,0 +1,6 @@
+def f x y z a b c =
+  x + y + z + a + b + c
+end
+
+let g = f 1 2 3 in
+g 4 5 6

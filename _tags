@@ -1,0 +1,2 @@
+<src/**>: package(ppx_deriving.std), package(oUnit), package(batteries)
+<output/**>: -traverse

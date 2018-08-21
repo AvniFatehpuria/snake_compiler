@@ -1,0 +1,9 @@
+def use_tuple_memory n =
+  if n < 1 then
+    false
+  else
+  let x = (1, 2, 3) in
+    (use_tuple_memory (n-1), use_tuple_memory (n-1))
+end
+
+use_tuple_memory 20

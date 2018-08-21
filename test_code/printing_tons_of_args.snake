@@ -1,0 +1,11 @@
+def f a b c x y z q =
+let a = print (a) in
+let b = print(b) in
+let c = print(c) in
+let d = print(x) in
+let e = print (y) in
+let u = print (z) in
+q
+end
+
+f 1 2 true false 6 1 true

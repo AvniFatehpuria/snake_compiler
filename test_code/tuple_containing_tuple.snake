@@ -1,0 +1,2 @@
+let x = print(((1, 2, 3), true, 3, (5, 27, false))) in
+x[3][2]

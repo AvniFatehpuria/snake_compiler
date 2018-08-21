@@ -1,0 +1,6 @@
+let y = true in
+let x =
+if y then 10
+else 11
+in
+x
